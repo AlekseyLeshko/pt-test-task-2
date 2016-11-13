@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/AlekseyLeshko/pt-test-task-2/issues"
   },
-  "homepage": "https://github.com/AlekseyLeshko/pt-test-task-2#readme"
+  "homepage": "https://github.com/AlekseyLeshko/pt-test-task-2#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "ava-spec": "^1.0.1"
+  }
 }
+
