@@ -1,13 +1,13 @@
+import currencies from './currencies';
+
 function getEmptyPrice() {
-  const emptyPrice = {
-    rubles: 0,
-    pounds: 0,
-    dollars: 0,
-    euros: 0,
-    yens: 0
-  };
+  const emptyPrice = currencies;
+  for (const prop in emptyPrice) {
+    emptyPrice[prop] = 0;
+  }
 
   return emptyPrice;
 }
 
 export default getEmptyPrice();
+
