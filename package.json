@@ -4,7 +4,7 @@
   "description": "Test task #2 for Positive Technologies",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc --reporter=html --reporter=text ava"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/AlekseyLeshko/pt-test-task-2#readme",
   "devDependencies": {
     "ava": "^0.16.0",
-    "ava-spec": "^1.0.1"
+    "ava-spec": "^1.0.1",
+    "nyc": "^8.4.0"
   },
   "ava": {
     "babel": "inherit",
