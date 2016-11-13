@@ -1,14 +1,14 @@
 import { describe } from 'ava-spec';
 import currencyReducers from '../src/currency-reducers';
 
-describe('module:currency reducers:', it => {
+describe('currency reducers:', it => {
   const state = {};
 
   it.beforeEach(t => {
     state.rubles = 0;
   });
 
-  it('rubles', t => {
+  it('should convert dollars to rubles', t => {
     const expected = 20 / 0.7;
     const card = {
       price: 20
