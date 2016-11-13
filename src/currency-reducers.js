@@ -1,18 +1,18 @@
 const currencyReducers = {
   rubles: function(state, item) {
-    return state.rubles += item.price;
+    return state.rubles += item.price / 0.7;
   },
   dollars: function(state, item) {
-    return state.dollars += item.price / 71.6024;
+    return state.dollars += item.price / 1;
   },
   euros: function(state, item) {
-    return state.euros += item.price / 79.0133;
+    return state.euros += item.price / 1.1;
   },
   yens: function(state, item) {
-    return state.yens += item.price / 0.6341;
+    return state.yens += item.price / 1.2;
   },
   pounds: function(state, item) {
-    return state.pounds += item.price / 101.7829;
+    return state.pounds += item.price / 1.3;
   }
 };
 

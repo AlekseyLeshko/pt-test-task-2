@@ -9,13 +9,13 @@ describe('module:currency reducers:', it => {
   });
 
   it('rubles', t => {
-    const expected = 20;
+    const expected = 20 / 0.7;
     const card = {
       price: 20
     };
     const actual = currencyReducers.rubles(state, card);
 
-    t.deepEqual(actual, expected);
+    t.is(actual, expected);
   });
 });
 
