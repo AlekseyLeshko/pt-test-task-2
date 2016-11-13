@@ -20,6 +20,12 @@
   "devDependencies": {
     "ava": "^0.16.0",
     "ava-spec": "^1.0.1"
+  },
+  "ava": {
+    "babel": "inherit",
+    "require": [
+      "babel-register"
+    ]
   }
 }
 
