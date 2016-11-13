@@ -4,7 +4,8 @@
   "description": "Test task #2 for Positive Technologies",
   "main": "",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text ava"
+    "test": "nyc --reporter=html --reporter=text ava",
+    "dev": "ava -w -v"
   },
   "repository": {
     "type": "git",
