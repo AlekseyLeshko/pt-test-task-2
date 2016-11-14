@@ -4,6 +4,6 @@ export default function(reducers) {
       reducers[currency](state, card);
       return state;
     }, {});
-  }
-};
+  };
+}
 

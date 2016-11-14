@@ -7,5 +7,5 @@ export default function(cards) {
   const totalPrice = cards.reduce(reducers, emptyPrice);
 
   return totalPrice;
-};
+}
 

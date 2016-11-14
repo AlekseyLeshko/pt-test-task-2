@@ -4,7 +4,7 @@ import currencyReducers from '../src/currency-reducers';
 describe('currency reducers:', it => {
   const state = {};
 
-  it.beforeEach(t => {
+  it.beforeEach(() => {
     state.rubles = 0;
   });
 
