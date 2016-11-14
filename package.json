@@ -5,7 +5,8 @@
   "main": "",
   "scripts": {
     "test": "nyc --reporter=html --reporter=text ava",
-    "dev": "ava -w -v"
+    "dev": "ava -w -v",
+    "eslint": "eslint src test"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "ava": "^0.16.0",
     "ava-spec": "^1.0.1",
+    "eslint": "^3.10.0",
     "nyc": "^8.4.0"
   },
   "ava": {
