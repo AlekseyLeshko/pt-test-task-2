@@ -1,6 +1,8 @@
 Test task #2 for Positive Technologies
 =
 
+[![Code Climate](https://codeclimate.com/github/AlekseyLeshko/pt-test-task-2/badges/gpa.svg)](https://codeclimate.com/github/AlekseyLeshko/pt-test-task-2)
+
 В магазине покупатель выбрал 4 товара со следующими ценами.
 В результате сформировалась корзина,
 ```
