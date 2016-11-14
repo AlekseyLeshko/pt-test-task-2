@@ -4,8 +4,9 @@
   "description": "Test task #2 for Positive Technologies",
   "main": "",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text ava",
-    "dev": "ava -w -v",
+    "test": "ava",
+    "dev:coverage": "nyc --reporter=html --reporter=text ava",
+    "dev:test": "ava -w -v",
     "eslint": "eslint src test"
   },
   "repository": {
