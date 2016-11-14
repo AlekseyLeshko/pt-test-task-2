@@ -4,7 +4,10 @@ import selectedCart from './fixtures/select-cards';
 
 describe('get total price:', it => {
   it('should return total price for 4 carts', t => {
-    const sum = selectedCart.reduce((sum, item) => { sum += item.price; }, 0);
+    const sum = selectedCart.reduce((sum, item) => {
+      sum += item.price;
+      return sum;
+    }, 0);
 
     const expected = {
       rubles: sum / 0.7,
